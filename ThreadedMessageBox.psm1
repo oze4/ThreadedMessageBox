@@ -193,8 +193,7 @@ FUNCTION Show-MessageBox
 }
 
 
-Export-ModuleMember -Function Add-MessageBoxMessage,
+Export-ModuleMember -Function Show-MessageBox,
 					Close-MessageBox,
 					Set-MessageBoxMessage,
-					Add-MessageBoxMessage,
-					Show-MessageBox
+					Add-MessageBoxMessage					
